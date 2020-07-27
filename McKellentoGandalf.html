@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="McKellentoGandalf.css">
+        <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
+        <title>Sir Ian McKellen to Gandalf</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('img').click(function() {
+                    $(this).attr('blankspace', $(this).attr('src'));
+                    $(this).attr('src', $(this).attr('data-alt-src'));
+                    $(this).attr('data-alt-src', $(this).attr('blankspace'));
+                })
+                }) 
+
+        </script>
+    </head>
+</html>
+<body>
+    <div id="wrapper">
+        <h1>Click Each Slice to Turn Sir Ian McKellen Into Gandalf!</h1>
+        <img src="Ian 1.jpg" data-alt-src='gandalf 1.jpg'/>
+        <img src="Ian 2.jpg" data-alt-src='gandalf 2.jpg'/>
+        <img src="Ian 3.jpg" data-alt-src='gandalf 3.jpg'/>
+        <img src="Ian 4.jpg" data-alt-src='gandalf 4.jpg'/>
+        <img src="Ian 5.jpg" data-alt-src='gandalf 5.jpg'/>
+    </div>  
+</body>        

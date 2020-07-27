@@ -1,0 +1,27 @@
+#wrapper{
+    display:inline-block;
+    background:linear-gradient(rgb(204, 230, 255),rgb(153, 206, 255),rgb(102, 181, 255));
+    width:1500px;
+    margin-left:200px;
+    padding-bottom: 50px;
+
+}
+
+img{
+	display: block;
+    border: 1px solid white;
+    width: 500px;
+    height: auto;
+    margin-left:500px;
+   
+}
+h1{
+    font-size:35pt;
+    font-weight:bold;
+    text-align:center;
+    display:inline-block;
+    color:rgb(89, 89, 89);
+    font-family: 'Uncial Antiqua';
+    margin-left: 50px;
+    margin-top:50px;
+}
